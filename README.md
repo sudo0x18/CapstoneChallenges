@@ -2,4 +2,8 @@
 <h4 align="center"> Jay Vadhaiya (sudo0x18) | CTF Solution Notes </h4>
 <hr>
 
-<img src="https://i.imgur.com/35pN4DA.png" aling="center" />
+<div align="center">
+  <a href="#">
+    <img src="https://i.imgur.com/35pN4DA.png" alt="logo" height="135px">
+  </a>
+</div>
