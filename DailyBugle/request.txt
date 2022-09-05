@@ -1,0 +1,15 @@
+POST /administrator/index.php HTTP/1.1
+Host: 10.10.65.66
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 110
+Origin: http://10.10.65.66
+Connection: close
+Referer: http://10.10.65.66/administrator/index.php
+Cookie: eaa83fe8b963ab08ce9ab7d4a798de05=i7o69ka0l81366t946l76tecf0; 2b01af51830ca9615359108de04d9ca1=ipih0hq90curr72mca44kgl307
+Upgrade-Insecure-Requests: 1
+
+username=admin&passwd=admin&option=com_login&task=login&return=aW5kZXgucGhw&e815eb5920e49e3497d880d8c64fbd32=1

@@ -1,0 +1,10 @@
+# Nmap 7.92 scan initiated Sat Aug 13 04:25:45 2022 as: nmap -p- -T4 -oN nmap/all_initial 10.10.65.66
+Nmap scan report for 10.10.65.66
+Host is up (0.17s latency).
+Not shown: 65532 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+3306/tcp open  mysql
+
+# Nmap done at Sat Aug 13 04:41:11 2022 -- 1 IP address (1 host up) scanned in 925.92 seconds
