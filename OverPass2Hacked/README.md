@@ -66,7 +66,7 @@ $6$SWybS8o2$9diveQinxy8PJQnGQQWbTNKeb2AiSp.i8KznuAjYbqI3q04Rf5hjHPer3weiC.2MrOj2
 
 ```
 2. What's the user flag?
-=> 
+=> thm{d119b4fa8c497ddb0525f7ad200e6567}
 ```
 
 ```
@@ -74,6 +74,6 @@ $6$SWybS8o2$9diveQinxy8PJQnGQQWbTNKeb2AiSp.i8KznuAjYbqI3q04Rf5hjHPer3weiC.2MrOj2
 => 
 ```
 ### Username : james
-### PAssword : whenevernoteartinstant
+### Password : november16
 
 ### SSH Backdoor : 0.0.0.0:2222
