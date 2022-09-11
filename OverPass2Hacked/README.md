@@ -71,7 +71,7 @@ $6$SWybS8o2$9diveQinxy8PJQnGQQWbTNKeb2AiSp.i8KznuAjYbqI3q04Rf5hjHPer3weiC.2MrOj2
 
 ```
 3. What's the root flag?
-=> 
+=> thm{d53b2684f169360bb9606c333873144d}
 ```
 ### Username : james
 ### Password : november16
